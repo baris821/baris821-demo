@@ -1,0 +1,4 @@
+{
+	host : heroku,
+	database : mLab
+}
