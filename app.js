@@ -30,7 +30,7 @@ app.use('/public' , express.static(path.join(__dirname , 'public')));
 require('./app_server/routers/RouteManager')(app);
 
 
-app.listen(8000);
-/**app.listen(process.env.PORT || 8080, function(){
+///app.listen(8000);
+app.listen(process.env.PORT || 8080, function(){
   console.log('listening  port 8080');
-});*/
+});
